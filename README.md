@@ -9,7 +9,7 @@
 
 
 <h3>Esse foi o projeto para desktop</h3>
-<img src="" >
+<img src="https://github.com/Robbie451979/SITE-PROJECT-RRJ-PRIVATE-CLASSES/blob/main/RRJ%20desktop.jpg?raw=true" >
 <br>
 
 <h4>Esse foi o projeto para mobile</h4>
