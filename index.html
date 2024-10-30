@@ -23,8 +23,21 @@
 
     <header>
         <a class="link-header"> Home </a>
-        <a class="link-header"> Pictures </a>
-        <a class="link-header"> Levelling Test </a>
+
+        <label>
+
+            <select>
+
+            <option> Pictures </option>
+            <option> Inspire someone today </option>
+            <option> Limits </option>
+            <option> Start your day </option>
+
+            </select>
+
+        </label>
+
+        <a class=" link-header"> Levelling Test </a>
         <a class="link-header"> About Business Class </a>
         <button class="button-header"> Login </button>
     </header>
@@ -56,25 +69,37 @@
             and confident to invest their interests in what really matters! Each student has different purposes, we help
             them to reach them! Robinson Rubini Junior</p>
 
-<div class="addresses">
-        <label>
+        <div class="addresses">
+            <label>
 
-            <h2> Follow us on Intagram: <a href="https://www.instagram.com/rrj_classes?igsh=eWdwdHp2Y29weTAz"
-                    target="_blank"> https://www.instagram.com/rrj_classes?igsh=eWdwdHp2Y29weTAz </a>
+                <h2> Follow us on <a href="https://www.instagram.com/rrj_classes?igsh=eWdwdHp2Y29weTAz" target="_blank">
+                        <b>Instagram:</b> </a>
 
-            </h2>
+                </h2>
 
-            <h3> Contact us on: <a href="mailto:robisao2011rubini@hotmail.com" target="_blank">
-                    robisao2011rubini@hotmail.com </a>
+                <h3> Contact us on: <a href="mailto:robisao2011rubini@hotmail.com" target="_blank">
+                        robisao2011rubini@hotmail.com </a>
 
-            </h3>
+                </h3>
 
-        </label>
-    </div>
+            </label>
+        </div>
 
     </main>
 
 </body>
 
+<script src="./scripts.js"></script>
+
+<script>
+    
+    const selectElement = document.querySelector(".image-1");
+
+        selectElement.addEventListener("change", function() {
+      const url = this.value;
+
+      if (url) { window.location.href = url;}
+    });
+  </script>
 
 </html>
